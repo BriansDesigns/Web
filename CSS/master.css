@@ -9,6 +9,10 @@ body {
 	text-align: center;
 	background: #ffffff;
 }
+.hidden {
+	display: none;
+}
+
 
 #page-container {
 	width: 760px;
