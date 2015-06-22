@@ -44,16 +44,16 @@ body {
 	background-position: 0 -50px;
 }
 #main-nav dt#about,
-#main-nav dt#about a { width: 71px; background-image: url(a href="http://smg.photobucket.com/user/docshroom101/media/Website%20Photos/Designs/about_zpscedm0901.gif.html"); }
+#main-nav dt#about a { width: 71px; background-image: url(https://cloud.githubusercontent.com/assets/12992995/8287932/03b055a2-18e1-11e5-9fae-98e3c70059b2.gif); }
 
 #main-nav dt#services,
-#main-nav dt#services a { width: 84px; background-image: url(../images/nav/services.gif); }
+#main-nav dt#services a { width: 84px; background-image: url(https://cloud.githubusercontent.com/assets/12992995/8287949/25499e6c-18e1-11e5-9651-c11da09de7bf.gif); }
 
 #main-nav dt#portfolio,
-#main-nav dt#portfolio a { width: 95px; background-image: url(../images/nav/portfolio.gif); }
+#main-nav dt#portfolio a { width: 95px; background-image: url(https://cloud.githubusercontent.com/assets/12992995/8287947/21bbc84c-18e1-11e5-8d70-c1992c1521be.gif); }
 
 #main-nav dt#contact,
-#main-nav dt#contact a { width: 106px; background-image: url(../images/nav/contact.gif); }
+#main-nav dt#contact a { width: 106px; background-image: url(https://cloud.githubusercontent.com/assets/12992995/8287942/1c2fda30-18e1-11e5-95e7-71f17bc08e40.gif); }
 body.about dt#about,
 body.about dt#about a,
 body.about dt#about a:hover,
