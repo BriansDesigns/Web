@@ -40,7 +40,7 @@ body {
 	background-position: 0 -50px;
 }
 #main-nav dt#about,
-#main-nav dt#about a { width: 71px; background-image: url(<a href="http://smg.photobucket.com/user/docshroom101/media/Website%20Photos/Designs/about_zpscedm0901.gif.html" target="_blank"><img src="http://img.photobucket.com/albums/v443/docshroom101/Website%20Photos/Designs/about_zpscedm0901.gif" border="0" alt=" photo about_zpscedm0901.gif"/></a>); }
+#main-nav dt#about a { width: 71px; background-image: url(a href="http://smg.photobucket.com/user/docshroom101/media/Website%20Photos/Designs/about_zpscedm0901.gif.html"); }
 
 #main-nav dt#services,
 #main-nav dt#services a { width: 84px; background-image: url(../images/nav/services.gif); }
