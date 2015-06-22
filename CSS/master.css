@@ -9,7 +9,9 @@ body {
 	text-align: center;
 	background: #ffffff;
 }
-
+.hidden {
+	display: none;
+}
 
 
 #page-container {
