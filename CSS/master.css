@@ -68,13 +68,13 @@ body.contact dt#contact a:hover {
 #header {
 	height: 150px;
 	background: #db6d16
-	            url("http://img.photobucket.com/albums/v443/docshroom101/Website%20Photos/Designs/home-banner_zpswywrwkz6.jpg");
+	            url(https://cloud.githubusercontent.com/assets/12992995/8288009/75416120-18e1-11e5-9559-4c8d42c00d92.jpg);
 }
 /* read more about changing the header image */
 body.about #header {
 	height: 150px;
 	background: #db6d16
-		    url("http://img.photobucket.com/albums/v443/docshroom101/Website%20Photos/Designs/home-banner_zpswywrwkz6.jpg");
+		    url(https://cloud.githubusercontent.com/assets/12992995/8288009/75416120-18e1-11e5-9559-4c8d42c00d92.jpg);
 }
 
 #sidebar-a {
