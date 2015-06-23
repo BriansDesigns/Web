@@ -2,17 +2,18 @@ html, body {
 	margin: 0;
 	padding: 0;
 }
+
 body {
 	font-family: Arial, Helvetica, Verdana, Sans-serif;
 	font-size: 12px;
 	color: #666666;
-	text-align: center;
 	background: #ffffff;
+	text-align: center;
 }
+
 .hidden {
 	display: none;
 }
-
 
 #page-container {
 	width: 760px;
@@ -23,15 +24,16 @@ body {
 /* Main Navigation */
 
 #main-nav { height: 50px; }
-#main-nav dl { margin: 0; padding: 0; 
+#main-nav dl { margin: 0; padding: 0; }
 
-}
 /* IE5 Mac Hack \*/ 
 #main-nav { padding-left: 11px; } 
 /*/ 
 #main-nav { padding-left: 11px; overflow: hidden; } 
 /* End Hack */
+
 #main-nav dt { float: left; }
+
 #main-nav dt a {
 	display: block;
 	height: 0px !important;
@@ -40,20 +42,23 @@ body {
 	overflow: hidden;
 	background-repeat: no-repeat;
 }
+
 #main-nav dt a:hover {
 	background-position: 0 -50px;
 }
+
 #main-nav dt#about,
-#main-nav dt#about a { width: 71px; background-image: url(https://github.com/BriansDesigns/Web/blob/gh-pages/Images/Nav/about.gif?raw=true); }
+#main-nav dt#about a { width: 71px; background-image: url(../images/nav/about.gif); }
 
 #main-nav dt#services,
-#main-nav dt#services a { width: 84px; background-image: url(https://github.com/BriansDesigns/Web/blob/gh-pages/Images/Nav/services.gif?raw=true); }
+#main-nav dt#services a { width: 84px; background-image: url(../images/nav/services.gif); }
 
 #main-nav dt#portfolio,
-#main-nav dt#portfolio a { width: 95px; background-image: url(https://github.com/BriansDesigns/Web/blob/gh-pages/Images/Nav/portfolio.gif?raw=true); }
+#main-nav dt#portfolio a { width: 95px; background-image: url(../images/nav/portfolio.gif); }
 
 #main-nav dt#contact,
-#main-nav dt#contact a { width: 106px; background-image: url(https://github.com/BriansDesigns/Web/blob/gh-pages/Images/Nav/contact.gif?raw=true); }
+#main-nav dt#contact a { width: 106px; background-image: url(../images/nav/contact.gif); }
+
 body.about dt#about,
 body.about dt#about a,
 body.about dt#about a:hover,
@@ -69,63 +74,10 @@ body.contact dt#contact a:hover {
 	background-position: 0 -100px;
 }
 
-#header {
-	height: 150px;
-	background: #db6d16
-	            url(https://github.com/BriansDesigns/Web/blob/gh-pages/Images/headers/home-banner.jpg?raw=true);
-}
-/* read more about changing the header image */
 body.about #header {
 	height: 150px;
 	background: #db6d16
-		    url(https://github.com/BriansDesigns/Web/blob/gh-pages/Images/headers/home-banner.jpg?raw=true);
-}
-
-#sidebar-a {
-	float: right;
-	width: 280px;
-	line-height: 18px;
-}
-
-#sidebar-a .padding {
-	padding: 25px;
-}
-
-#content {
-	margin-right: 280px;
-	line-height: 18px;
-}
-
-#content .padding {
-	padding: 25px;
-}
-
-#footer {
-	clear: both;
-	font-family: Tahoma, Arial, Helvetica, Sans-serif;
-	font-size: 10px;
-	color: #c9c9c9;
-	border-top: 1px solid #efefef;
-	padding: 13px 25px;
-	line-height: 18px;
-}
-#footer #altnav {
-	clear: both;
-	width: 350px;
-	float: right;
-	text-align: right;
-	padding-top: 13px;
-}
-
-#footer #copyright {
-	padding-top: 13px;
-}
-#footer a {
-	color: #c9c9c9;
-	text-decoration: none;
-}
-#footer a:hover {
-	color: #db6d16;
+		    url(../images/headers/about.jpg);
 }
 
 h1 {
@@ -135,6 +87,24 @@ h1 {
 	margin-top: 57px;
 	padding-right: 31px;
 }
+
+#sidebar-a {
+	float: right;
+	width: 280px;
+}
+
+#sidebar-a .padding {
+	padding: 25px;
+}
+
+#content {
+	margin-right: 280px;
+}
+
+#content .padding {
+	padding: 25px;
+}
+
 #content h2 {
 	margin: 0;
 	padding: 0;
@@ -145,4 +115,35 @@ h1 {
 	margin: 0;
 	padding: 0;
 	padding-bottom: 15px;
+}
+
+#footer {
+	clear: both;
+	height: 66px;
+	font-family: Tahoma, Arial, Helvetica, Sans-serif;
+	font-size: 10px;
+	color: #c9c9c9;
+	border-top: 1px solid #efefef;
+	padding: 13px 25px;
+	line-height: 18px;
+}
+
+#footer #altnav {
+	width: 350px;
+	float: right;
+	text-align: right;
+	padding-top: 13px;
+}
+
+#footer #copyright {
+	padding-top: 13px;
+}
+
+#footer a {
+	color: #c9c9c9;
+	text-decoration: none;
+}
+
+#footer a:hover {
+	color: #db6d16;
 }
